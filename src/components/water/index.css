@@ -10,7 +10,15 @@
    
   
 }
+#animation{
+    animation-name:transport;
+    animation-duration: 4s;
+      /* animation-name: example;
+      animation-duration: 10s; */
+}
+
 .drop{
+  
     position: absolute;
    
     width: 150px;
@@ -57,3 +65,18 @@ text-align: center;
     transform: scale(0.35) translate(150px,-350px);
     border-radius: 40% 60% 75% 25% / 61% 34% 66% 39%  ;
  }
+
+ @keyframes example {
+    0%   {background-color:#fff}
+    25%  {background-color:rgb(233, 233, 227)}
+    50%  {background-color:rgb(197, 197, 218)}
+    75%  {background-color:rgb(215, 243, 215)}
+    100% {background-color:rgb(209, 195, 195)}
+  }
+
+  @keyframes transport {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }

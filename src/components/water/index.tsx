@@ -8,8 +8,8 @@ function Water() {
 
     return (
        <div className="drops"> 
-       hello my name is reza sanjari
-       <div className="drop"> </div>
+       
+       <div className="drop" id="animation"> </div>
        <div className="drop"> </div>
        <div className="drop"> </div>
        <div className="drop"> </div>
