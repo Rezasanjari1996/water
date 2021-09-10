@@ -11,8 +11,11 @@
   
 }
 #animation{
-    animation-name:transport;
+    animation-name:example;
     animation-duration: 4s;
+    position: absolute;
+    width: 150px;
+    height: 150px;
       /* animation-name: example;
       animation-duration: 10s; */
 }
@@ -20,7 +23,6 @@
 .drop{
   
     position: absolute;
-   
     width: 150px;
     height: 150px;
     border-radius: 57% 43% 37% 63% / 45% 49% 51% 55% ;
@@ -67,11 +69,11 @@ text-align: center;
  }
 
  @keyframes example {
-    0%   {background-color:#fff}
-    25%  {background-color:rgb(233, 233, 227)}
-    50%  {background-color:rgb(197, 197, 218)}
-    75%  {background-color:rgb(215, 243, 215)}
-    100% {background-color:rgb(209, 195, 195)}
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:10px; top:0px;}
+  50%  {background-color:blue; left:10px; top:10px;}
+  75%  {background-color:green; left:0px; top:10px;}
+  100% {background-color:red; left:0px; top:0px;}
   }
 
   @keyframes transport {

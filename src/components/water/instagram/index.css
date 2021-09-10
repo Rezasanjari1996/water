@@ -1,0 +1,124 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width :1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    font-family: monospace;
+}
+.border{
+    height: 360px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+.border:hover{
+    border: 1px solid #fff;
+}
+.card{
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition:background 0.8s ;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        position: relative;
+}
+.card0{
+    background:url('./../../../image/22.jpg') center center no-repeat ;
+    background-size: 300px;
+}
+.card0:hover{
+    background:url('./../../../image/22.jpg') left center no-repeat ;
+    background-size: 600px;
+}
+.card0:hover h2{
+    opacity: 1;
+    font-family: monospace;
+   align-content: inherit;
+}
+
+.card0:hover .fa{
+    opacity: 1;
+    
+}
+
+.card1{
+    background:url('./../../../image/21.jpg') center center no-repeat ;
+    background-size: 300px;
+
+}
+
+
+.card1:hover{
+    background:url('./../../../image/21.jpg') left center no-repeat ;
+    background-size: 600px;
+
+}
+.card1:hover h2{
+    opacity: 1;
+    font-family: monospace;
+}
+
+.card1:hover .fa{
+    opacity: 1;
+    
+}
+
+.card2{
+    background:url('./../../../image/20.jpg') center center no-repeat ;
+    background-size: 300px;
+}
+
+.card2:hover{
+    background:url('./../../../image/20.jpg') left center  no-repeat ;
+    background-size: 600px;
+}
+.card2:hover h2{
+    opacity: 1;
+    font-family: monospace;
+    
+}
+
+.card2:hover .fa{
+    opacity: 1;
+    
+}
+ h2{
+     font-family: monospace;
+     color: white;
+     margin: 20px;
+     opacity: 0;
+     transition: opacity 1s;
+     flex-direction: column;
+
+}
+.fa{
+    opacity: 0;
+    transition: opacity 1s;
+}
+.icon{
+    position: absolute;
+    fill: white;
+    color: white;
+    height: 130px;
+    top: 226px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
